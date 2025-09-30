@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: #292a35;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+section.logIn {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid none;
+    width: fit-content;
+    padding: 20px;
+    align-items: center;
+    margin-top: 150px;
+    font-weight: lighter;
+    background-color: white;
+}
+
+section.logIn h2 {
+    font-weight: 400;
+}
+
+
+input#email,
+#password {
+    width: 350px;
+    height: 50px;
+    border-radius: 3px;
+    border-style: none;
+    padding-left: 10px;
+    border: 1px solid rgb(169, 168, 168);
+    
+}
+
+
+
+
+input#email::placeholder,
+input#emmail::placeholder {
+    font-size: 800;
+}
+
+
+
+button#submit {
+    border: none;
+    background-color: #3853db;
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    transition: transform 1s ease, background-color 1s ease , box-shadow 1s ease; 
+}
+
+button#submit:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgb(245, 0, 8);
+    background-color: rgb(242, 70, 70);
+    transition: transform 1s ease ,background-color 1s ease , box-shadow 1s ease; 
+
+}
+
+section.logIn form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#checkbox {
+    display: flex;
+    justify-content: flex-start;
+}
