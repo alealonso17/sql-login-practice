@@ -3,7 +3,7 @@
 This is a learning mini-project where I practice building a simple login and registration system with data stored in a SQL database.The goal is to understand the basics of user authentication and how to connect the frontend (HTML + CSS) with a backend and database.
 
 ![FunnyGIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWpzeTR1djRkazF1Mml2bDRkdjV4em9ydGd4dDc4c2tkcHo4NmtwcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1USKMDPjuH4ovL7J5h/giphy.gif)
-⸻
+
 
 🚀 Project Goals
 	•	Create a login and registration form using HTML + CSS.
